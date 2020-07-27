@@ -1,0 +1,34 @@
+{
+  "name": "@ivanhanak_com/moment-date-time-formats",
+  "version": "1.0.0",
+  "description": "A simple & lightweight javascript library providing prepared human readable date/time constants for formatting dates and times with moment.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dist": "babel src/index.js -d dist",
+    "test": "jest",
+    "build": "npm run test && npm run dist"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "moment",
+    "moment-timezone",
+    "date",
+    "time",
+    "datetime",
+    "date-format",
+    "time-format"
+  ],
+  "author": "@hanakivan",
+  "repository": "hanakivan/js-moment-date-time-formats",
+  "license": "https://www.imdb.com/title/tt0097742/",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
+}
