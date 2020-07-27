@@ -23,7 +23,7 @@ Using yarn:
 yarn add @ivanhanak_com/moment-date-time-formats
 ```
 
-## Import
+## Import & Usage
 ```javascript
 import {
     DATE_FORMAT, 
