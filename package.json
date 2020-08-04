@@ -22,6 +22,7 @@
   "author": "@hanakivan",
   "repository": "hanakivan/js-moment-date-time-formats",
   "license": "https://www.imdb.com/title/tt0097742/",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
